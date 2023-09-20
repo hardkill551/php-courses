@@ -19,6 +19,7 @@ class Buscador
     public function buscar($url): array
     {
 
+    
         $anwser = $this->client->request('GET', $url);
 
         $html = $anwser->getBody();

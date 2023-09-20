@@ -1,6 +1,6 @@
 <?php
 
-// namespace Alura\BuscadorDeCursos\Tests;
+// namespace Hardkill551\BuscadorDeCursos\Tests;
 
 // use GuzzleHttp\ClientInterface;
 // use Hardkill551\BuscadorCursos\Buscador;
@@ -14,51 +14,51 @@
 //     private $httpClientMock;
 //     private $url = 'url-teste';
 
-    // protected function setUp(): void
-    // {
-    //     $html = <<<FIM
-    //     <html>
-    //         <body>
-    //             <span class="card-curso__nome">Curso Teste 1</span>
-    //             <span class="card-curso__nome">Curso Teste 2</span>
-    //             <span class="card-curso__nome">Curso Teste 3</span>
-    //         </body>
-    //     </html>
-    //     FIM;
+//     protected function setUp(): void
+//     {
+//         $html = <<<FIM
+//         <html>
+//             <body>
+//                 <span class="card-curso__nome">Curso Teste 1</span>
+//                 <span class="card-curso__nome">Curso Teste 2</span>
+//                 <span class="card-curso__nome">Curso Teste 3</span>
+//             </body>
+//         </html>
+//         FIM;
 
 
-    //     $stream = $this->createMock(StreamInterface::class);
-    //     $stream
-    //         ->expects($this->once())
-    //         ->method('__toString')
-    //         ->willReturn($html);
+//         $stream = $this->createMock(StreamInterface::class);
+//         $stream
+//             ->expects($this->once())
+//             ->method('__toString')
+//             ->willReturn($html);
 
-    //     $response = $this->createMock(ResponseInterface::class);
-    //     $response
-    //         ->expects($this->once())
-    //         ->method('getBody')
-    //         ->willReturn($stream);
+//         $response = $this->createMock(ResponseInterface::class);
+//         $response
+//             ->expects($this->once())
+//             ->method('getBody')
+//             ->willReturn($stream);
 
-    //     $httpClient = $this
-    //         ->createMock(ClientInterface::class);
-    //     $httpClient
-    //         ->expects($this->once())
-    //         ->method('request')
-    //         ->with('GET', $this->url)
-    //         ->willReturn($response);
+//         $httpClient = $this
+//             ->createMock(ClientInterface::class);
+//         $httpClient
+//             ->expects($this->once())
+//             ->method('request')
+//             ->with('GET', $this->url)
+//             ->willReturn($response);
 
-    //     $this->httpClientMock = $httpClient;
-    // }
+//         $this->httpClientMock = $httpClient;
+//     }
 
-    // public function testBuscadorDeveRetornarCursos()
-    // {
-    //     $crawler = new Crawler();
-    //     $buscador = new Buscador($this->httpClientMock, $crawler);
-    //     $cursos = $buscador->buscar($this->url);
+//     public function testBuscadorDeveRetornarCursos()
+//     {
+//         $crawler = new Crawler();
+//         $buscador = new Buscador($this->httpClientMock, $crawler);
+//         $cursos = $buscador->buscar($this->url);
 
-    //     $this->assertCount(3, $cursos);
-    //     $this->assertEquals('Curso Teste 1', $cursos[0]);
-    //     $this->assertEquals('Curso Teste 2', $cursos[1]);
-    //     $this->assertEquals('Curso Teste 3', $cursos[2]);
-    // }
+//         $this->assertCount(3, $cursos);
+//         $this->assertEquals('Curso Teste 1', $cursos[0]);
+//         $this->assertEquals('Curso Teste 2', $cursos[1]);
+//         $this->assertEquals('Curso Teste 3', $cursos[2]);
+//     }
 // }
